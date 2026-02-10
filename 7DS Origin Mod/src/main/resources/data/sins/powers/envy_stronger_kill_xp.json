@@ -1,0 +1,14 @@
+{
+  "type": "origins:self_action_on_kill",
+  "target_condition": {
+    "type": "origins:attribute",
+    "attribute": "minecraft:generic.max_health",
+    "comparison": ">=",
+    "compare_to": 24.0
+  },
+  "entity_action": {
+    "type": "origins:execute_command",
+    "command": "experience add @s 20 points",
+    "permission_level": 2
+  }
+}

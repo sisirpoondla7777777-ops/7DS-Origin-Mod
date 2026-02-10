@@ -1,0 +1,14 @@
+{
+  "type": "origins:status_effect",
+  "condition": {
+    "type": "origins:command",
+    "command": "execute if entity @e[distance=..5]",
+    "comparison": "<=",
+    "compare_to": 1
+  },
+  "effect": {
+    "effect": "minecraft:weakness",
+    "amplifier": 0,
+    "duration": 60
+  }
+}

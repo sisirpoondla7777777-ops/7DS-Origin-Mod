@@ -1,0 +1,12 @@
+{
+  "name": "Wrath",
+  "description": "The closer to defeat, the harder you hit. Calm is weakness.",
+  "icon": "minecraft:blaze_powder",
+  "impact": 2,
+  "powers": [
+    "sins:wrath_missing_health_strength",
+    "sins:wrath_rage_burst",
+    "sins:wrath_no_shields",
+    "sins:wrath_full_health_weakness"
+  ]
+}

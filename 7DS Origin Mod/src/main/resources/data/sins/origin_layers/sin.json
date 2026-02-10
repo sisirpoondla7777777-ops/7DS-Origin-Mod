@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "name": "Sin",
+  "order": 0,
+  "origins": [
+    "sins:pride",
+    "sins:greed",
+    "sins:lust",
+    "sins:envy",
+    "sins:gluttony",
+    "sins:wrath",
+    "sins:sloth"
+  ],
+  "enabled": true
+}

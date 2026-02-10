@@ -1,0 +1,36 @@
+{
+  "type": "origins:active_self",
+  "cooldown": 800,
+  "condition": {
+    "type": "origins:inventory",
+    "process_mode": "stacks",
+    "comparison": ">=",
+    "compare_to": 29
+  },
+  "hud_render": {
+    "should_render": true,
+    "bar_index": 1,
+    "sprite_location": "origins:textures/gui/community/ability_bar.png"
+  },
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:apply_effect",
+        "effect": {
+          "effect": "minecraft:strength",
+          "amplifier": 0,
+          "duration": 200
+        }
+      },
+      {
+        "type": "origins:apply_effect",
+        "effect": {
+          "effect": "minecraft:speed",
+          "amplifier": 0,
+          "duration": 200
+        }
+      }
+    ]
+  }
+}

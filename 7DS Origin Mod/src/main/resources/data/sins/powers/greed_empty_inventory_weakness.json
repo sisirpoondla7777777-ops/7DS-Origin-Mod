@@ -1,0 +1,33 @@
+{
+  "type": "origins:multiple",
+  "powers": {
+    "weakness": {
+      "type": "origins:status_effect",
+      "condition": {
+        "type": "origins:inventory",
+        "process_mode": "stacks",
+        "comparison": "<",
+        "compare_to": 18
+      },
+      "effect": {
+        "effect": "minecraft:weakness",
+        "amplifier": 0,
+        "duration": 60
+      }
+    },
+    "slowness": {
+      "type": "origins:status_effect",
+      "condition": {
+        "type": "origins:inventory",
+        "process_mode": "stacks",
+        "comparison": "<",
+        "compare_to": 18
+      },
+      "effect": {
+        "effect": "minecraft:slowness",
+        "amplifier": 0,
+        "duration": 60
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "origins:status_effect",
+  "condition": {
+    "type": "origins:moving"
+  },
+  "effect": {
+    "effect": "minecraft:mining_fatigue",
+    "amplifier": 0,
+    "duration": 60
+  }
+}

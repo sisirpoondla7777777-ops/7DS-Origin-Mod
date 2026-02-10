@@ -1,0 +1,13 @@
+{
+  "name": "Sloth",
+  "description": "Stillness heals you and slows hunger, but movement is a burden.",
+  "icon": "minecraft:feather",
+  "impact": 2,
+  "powers": [
+    "sins:sloth_still_regen",
+    "sins:sloth_slow_hunger",
+    "sins:sloth_hibernate",
+    "sins:sloth_moving_slow",
+    "sins:sloth_moving_fatigue"
+  ]
+}

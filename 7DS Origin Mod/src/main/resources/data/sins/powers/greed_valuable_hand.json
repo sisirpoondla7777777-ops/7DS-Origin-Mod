@@ -1,0 +1,45 @@
+{
+  "type": "origins:multiple",
+  "powers": {
+    "luck": {
+      "type": "origins:status_effect",
+      "condition": {
+        "type": "origins:equipped_item",
+        "equipment_slot": "mainhand",
+        "item_condition": {
+          "type": "origins:ingredient",
+          "ingredient": {
+            "tag": "sins:valuable_items"
+          }
+        }
+      },
+      "effect": {
+        "effect": "minecraft:luck",
+        "amplifier": 0,
+        "duration": 60,
+        "show_particles": true,
+        "show_icon": true
+      }
+    },
+    "haste": {
+      "type": "origins:status_effect",
+      "condition": {
+        "type": "origins:equipped_item",
+        "equipment_slot": "mainhand",
+        "item_condition": {
+          "type": "origins:ingredient",
+          "ingredient": {
+            "tag": "sins:valuable_items"
+          }
+        }
+      },
+      "effect": {
+        "effect": "minecraft:haste",
+        "amplifier": 0,
+        "duration": 60,
+        "show_particles": true,
+        "show_icon": true
+      }
+    }
+  }
+}

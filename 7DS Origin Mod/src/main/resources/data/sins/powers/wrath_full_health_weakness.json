@@ -1,0 +1,13 @@
+{
+  "type": "origins:status_effect",
+  "condition": {
+    "type": "origins:relative_health",
+    "comparison": ">=",
+    "compare_to": 1.0
+  },
+  "effect": {
+    "effect": "minecraft:weakness",
+    "amplifier": 0,
+    "duration": 60
+  }
+}

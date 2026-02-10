@@ -1,0 +1,30 @@
+{
+  "type": "origins:active_self",
+  "cooldown": 1200,
+  "hud_render": {
+    "should_render": true,
+    "bar_index": 6,
+    "sprite_location": "origins:textures/gui/community/ability_bar.png"
+  },
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:apply_effect",
+        "effect": {
+          "effect": "minecraft:slowness",
+          "amplifier": 3,
+          "duration": 100
+        }
+      },
+      {
+        "type": "origins:apply_effect",
+        "effect": {
+          "effect": "minecraft:regeneration",
+          "amplifier": 2,
+          "duration": 100
+        }
+      }
+    ]
+  }
+}

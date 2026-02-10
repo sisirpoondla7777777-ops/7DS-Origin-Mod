@@ -1,0 +1,38 @@
+{
+  "type": "origins:active_self",
+  "cooldown": 700,
+  "hud_render": {
+    "should_render": true,
+    "bar_index": 2,
+    "sprite_location": "origins:textures/gui/community/ability_bar.png"
+  },
+  "entity_action": {
+    "type": "origins:area_of_effect",
+    "radius": 5,
+    "include_actor": false,
+    "bientity_action": {
+      "type": "origins:target_action",
+      "action": {
+        "type": "origins:and",
+        "actions": [
+          {
+            "type": "origins:apply_effect",
+            "effect": {
+              "effect": "minecraft:slowness",
+              "amplifier": 3,
+              "duration": 40
+            }
+          },
+          {
+            "type": "origins:apply_effect",
+            "effect": {
+              "effect": "minecraft:weakness",
+              "amplifier": 1,
+              "duration": 40
+            }
+          }
+        ]
+      }
+    }
+  }
+}

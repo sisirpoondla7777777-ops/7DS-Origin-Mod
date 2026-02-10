@@ -1,0 +1,44 @@
+{
+  "type": "origins:multiple",
+  "powers": {
+    "tier1": {
+      "type": "origins:conditioned_attribute",
+      "condition": {
+        "type": "origins:relative_health",
+        "comparison": "<=",
+        "compare_to": 0.75
+      },
+      "modifier": {
+        "attribute": "minecraft:generic.attack_damage",
+        "operation": "addition",
+        "value": 1.0
+      }
+    },
+    "tier2": {
+      "type": "origins:conditioned_attribute",
+      "condition": {
+        "type": "origins:relative_health",
+        "comparison": "<=",
+        "compare_to": 0.5
+      },
+      "modifier": {
+        "attribute": "minecraft:generic.attack_damage",
+        "operation": "addition",
+        "value": 2.0
+      }
+    },
+    "tier3": {
+      "type": "origins:conditioned_attribute",
+      "condition": {
+        "type": "origins:relative_health",
+        "comparison": "<=",
+        "compare_to": 0.25
+      },
+      "modifier": {
+        "attribute": "minecraft:generic.attack_damage",
+        "operation": "addition",
+        "value": 3.0
+      }
+    }
+  }
+}

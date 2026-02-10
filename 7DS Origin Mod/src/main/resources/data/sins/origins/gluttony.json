@@ -1,0 +1,13 @@
+{
+  "name": "Gluttony",
+  "description": "You feast without limit and linger in food’s effects, but hunger claws back harder.",
+  "icon": "minecraft:golden_apple",
+  "impact": 2,
+  "powers": [
+    "sins:gluttony_always_edible",
+    "sins:gluttony_food_effects_longer",
+    "sins:gluttony_overconsume",
+    "sins:gluttony_fast_hunger",
+    "sins:gluttony_starving_damage"
+  ]
+}

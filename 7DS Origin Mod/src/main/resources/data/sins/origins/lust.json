@@ -1,0 +1,11 @@
+{
+  "name": "Lust",
+  "description": "A slowing aura surrounds you; alone, your allure fades.",
+  "icon": "minecraft:rose_bush",
+  "impact": 2,
+  "powers": [
+    "sins:lust_aura_slowness",
+    "sins:lust_charm",
+    "sins:lust_lonely_weakness"
+  ]
+}

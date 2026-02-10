@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "sins",
+  "version": "1.0.0",
+  "name": "Seven Deadly Sins Origins",
+  "description": "Adds the Seven Deadly Sins as Origins.",
+  "authors": ["Sisir"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.sins.SinsMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "fabric": "*",
+    "minecraft": "1.20.1",
+    "origins": "*",
+    "apoli": "*"
+  }
+}

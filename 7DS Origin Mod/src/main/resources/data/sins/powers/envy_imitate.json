@@ -1,0 +1,29 @@
+{
+  "type": "origins:active_self",
+  "cooldown": 900,
+  "hud_render": {
+    "should_render": true,
+    "bar_index": 3,
+    "sprite_location": "origins:textures/gui/community/ability_bar.png"
+  },
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:execute_command",
+        "command": "execute if entity @p[distance=..8,sort=nearest,limit=1,nbt={ActiveEffects:[{Id:5b}]}] run effect give @s minecraft:strength 15 0 true",
+        "permission_level": 2
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "execute if entity @p[distance=..8,sort=nearest,limit=1,nbt={ActiveEffects:[{Id:1b}]}] run effect give @s minecraft:speed 15 0 true",
+        "permission_level": 2
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "execute if entity @p[distance=..8,sort=nearest,limit=1,nbt={ActiveEffects:[{Id:11b}]}] run effect give @s minecraft:resistance 15 0 true",
+        "permission_level": 2
+      }
+    ]
+  }
+}

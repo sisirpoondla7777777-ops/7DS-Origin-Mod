@@ -1,0 +1,30 @@
+{
+  "type": "origins:active_self",
+  "cooldown": 600,
+  "hud_render": {
+    "should_render": true,
+    "bar_index": 5,
+    "sprite_location": "origins:textures/gui/community/ability_bar.png"
+  },
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:apply_effect",
+        "effect": {
+          "effect": "minecraft:strength",
+          "amplifier": 1,
+          "duration": 200
+        }
+      },
+      {
+        "type": "origins:apply_effect",
+        "effect": {
+          "effect": "minecraft:speed",
+          "amplifier": 0,
+          "duration": 200
+        }
+      }
+    ]
+  }
+}

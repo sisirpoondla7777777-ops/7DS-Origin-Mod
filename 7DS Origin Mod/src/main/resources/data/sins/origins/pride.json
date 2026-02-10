@@ -1,0 +1,11 @@
+{
+  "name": "Pride",
+  "description": "Unshakable at full health, but falters when wounded.",
+  "icon": "minecraft:netherite_sword",
+  "impact": 2,
+  "powers": [
+    "sins:pride_full_health_strength",
+    "sins:pride_stunning_presence",
+    "sins:pride_low_health_weakness"
+  ]
+}

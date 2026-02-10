@@ -1,0 +1,11 @@
+{
+  "name": "Greed",
+  "description": "Power flows from riches and a full pack, but emptiness saps you.",
+  "icon": "minecraft:emerald",
+  "impact": 2,
+  "powers": [
+    "sins:greed_valuable_hand",
+    "sins:greed_hoarders_rush",
+    "sins:greed_empty_inventory_weakness"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "type": "origins:status_effect",
+  "condition": {
+    "type": "origins:moving",
+    "inverted": true
+  },
+  "effect": {
+    "effect": "minecraft:regeneration",
+    "amplifier": 0,
+    "duration": 60
+  }
+}

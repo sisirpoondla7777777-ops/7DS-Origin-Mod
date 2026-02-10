@@ -1,0 +1,4 @@
+{
+  "type": "origins:modify_food",
+  "always_edible": true
+}

@@ -1,0 +1,23 @@
+{
+  "type": "origins:action_on_hit",
+  "bientity_condition": {
+    "type": "origins:target_condition",
+    "condition": {
+      "type": "origins:attribute",
+      "attribute": "minecraft:generic.max_health",
+      "comparison": "<=",
+      "compare_to": 10.0
+    }
+  },
+  "bientity_action": {
+    "type": "origins:actor_action",
+    "action": {
+      "type": "origins:apply_effect",
+      "effect": {
+        "effect": "minecraft:weakness",
+        "amplifier": 0,
+        "duration": 100
+      }
+    }
+  }
+}

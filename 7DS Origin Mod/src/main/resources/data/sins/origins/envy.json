@@ -1,0 +1,11 @@
+{
+  "name": "Envy",
+  "description": "You learn fast from stronger foes and imitate others, but picking on the weak dulls you.",
+  "icon": "minecraft:spyglass",
+  "impact": 2,
+  "powers": [
+    "sins:envy_stronger_kill_xp",
+    "sins:envy_imitate",
+    "sins:envy_weak_target_weakness"
+  ]
+}
